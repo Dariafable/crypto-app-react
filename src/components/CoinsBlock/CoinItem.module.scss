@@ -1,0 +1,40 @@
+.root {
+  max-width: 1140px;
+  margin: 2rem 1rem;
+  padding: 0.7rem 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #26272b;
+  box-shadow: 0px 0px 8px #26caf1;
+  border-radius: 8px;
+
+  p {
+    align-self: center;
+  }
+
+  &:hover {
+    transform: scale(1.04);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+}
+
+.symbol {
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 40px;
+    width: auto;
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .hide_mobile {
+    display: none;
+  }
+}
